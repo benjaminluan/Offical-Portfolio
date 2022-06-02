@@ -1,13 +1,202 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #44476a;
+  background-color: #eeebe8;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans";
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #44476a;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* 
+
+Nav Bar
+
+*/
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  padding: 56px 0px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  transition: all 200ms ease;
+  position: fixed;
+  top: 0;
+}
+
+.scrolldown__effect {
+  transform: translateY(-100%);
+}
+
+.scrollup__effect {
+  box-shadow: 3px 3px 12px #b8b9be;
+  transform: translateY(0%);
+}
+
+.nav__list--container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto 240px;
+}
+
+.nav__list {
+  margin: 0 24px;
+  font-size: 20px;
+}
+
+/*
+Header
+*/
+
+header {
+  margin: 216px 64px;
+  text-align: center;
+}
+
+.header__name {
+  font-size: 56px;
+}
+
+.header__greeting {
+  margin: 24px auto;
+  font-size: 30px;
+  width: 60%;
+}
+
+.header__btns--container {
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__btn--container {
+  display: flex;
+  flex-direction: column;
+  margin: 56px 16px;
+}
+
+.header__btn--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  font-size: 20px;
+  margin: 0 32px;
+  box-shadow: 6px 10px 12px #bcbdc2, -12px -6px 12px #fff;
+}
+
+.header__btn--icon:hover {
+  box-shadow: inset 6px 6px 12px #bcbdc2, inset -3px -6px 7px #fff;
+}
+
+.header__btn {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header__cred {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+/*
+
+About Me
+
+*/
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__me--container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 22%;
+  border-radius: 25px;
+  box-shadow: 6px 10px 12px #bcbdc2, -12px -6px 12px #fff;
+  transition: all 1s;
+}
+
+.expand {
+  width: 70%;
+}
+
+.header__about--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__about {
+  position: absolute;
+  left: 10%;
+  margin-right: 24px;
+  text-align: center;
+  transition: all 1s linear;
+}
+
+.about__expanded {
+  position: absolute;
+  left: 5%;
+}
+
+.icon__wrapper{
+  position: absolute;
+  left: 88%;
+}
+
+.fa-chevron-down,
+.fa-chevron-up {
+  font-size: 26px;
+  
+}
+
+.icon__expanded{
+  position: absolute;
+  left: 95%;
 }
