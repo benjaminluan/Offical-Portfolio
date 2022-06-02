@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Html from "../assets/html5.svg";
+import css from "../assets/css4.svg"
 
 const About = () => {
   const [clicked, setClicked] = useState(false);
@@ -45,7 +47,7 @@ const About = () => {
                 capture the users attention.
               </p>
               <p className="about__me--expanded-para2">
-                I enjoy facing <span className="bold">challenges</span> so I can refine my craft and implement <span className="bold">new
+                I welcome new <span className="bold">challenges</span> to transform them into engaging solutions in order to refine my craft and implement <span className="bold">new
                 skills</span> to my collections. Therefore, I am <span className="bold">consistently</span> working
                 on new projects to improve on my <span className="bold">critical thinking</span>, <span className="bold">problem-solving</span>,
                 and <span className="bold">web developement abilities</span>.
@@ -59,6 +61,20 @@ const About = () => {
             </div>
             <div className="about__me--expanded-right-column">
               <h2 className="header__language">Technology Stack</h2>
+              <div className="language__img--container">
+                <figure className="language__img--wrapper">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="" className="language__img" />
+                </figure>
+                <figure className="language__img--wrapper">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="" className="language__img" />
+                </figure>
+                <figure className="language__img--wrapper">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="" className="language__img" />
+                </figure>
+                <figure className="language__img--wrapper">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" alt="" className="language__img" />
+                </figure>
+              </div>
             </div>
           </div>
         </div>
