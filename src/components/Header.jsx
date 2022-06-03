@@ -20,7 +20,7 @@ const Header = () => {
           <a href="" className="header__btn--icon">
             <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
           </a>
-          <a href="" className="header__btn">
+          <a href="" className="header__btn ">
             LinkedIn
           </a>
         </div>
@@ -28,7 +28,7 @@ const Header = () => {
           <a href="" className="header__btn--icon">
             <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
-          <a href="" className="header__btn">
+          <a href="" className="header__btn ">
             Github
           </a>
         </div>
@@ -42,8 +42,8 @@ const Header = () => {
         </div>
       </div>
       <p className="header__cred">
-        This E-portfolio was inspired by the Neumorphism User
-        Interface visual style.
+        This E-portfolio was inspired by the Neumorphism User Interface visual
+        style.
       </p>
     </header>
   );

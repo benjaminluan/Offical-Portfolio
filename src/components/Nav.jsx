@@ -5,9 +5,9 @@ const Nav = ({ toggle }) => {
   const [y, setY] = useState(window.screenY);
   const [scrollUp, setScrollUp] = useState(false);
   const scrollingUp =
-    scrollUp === true && window.scrollY !== 0 ? "scrollup__effect" : "";
+    scrollUp === true && window.scrollY !== 0 ? " scrollup__effect" : "";
   const scrollingDown =
-    scrollUp === false && window.scrollY !== 0 ? "scrolldown__effect" : "";
+    scrollUp === false && window.scrollY !== 0 ? " scrolldown__effect" : "";
   const navList = ["Home", "About", "Projects"];
 
   const detectScroll = useCallback(
@@ -30,11 +30,11 @@ const Nav = ({ toggle }) => {
   }, [detectScroll]);
 
   return (
-    <nav className={`${scrollingUp}` + `${scrollingDown}`}>
+    <nav className={"" + `${scrollingUp}` + `${scrollingDown}`}>
       <ul className="nav__list--container">
         {navList.map((list) => (
           <li className="nav__list" key={list}>
-            <a href="/" className="nav__list--anchor">
+            <a href="/" className="nav__list--anchor dark__mode">
               {list}
             </a>
           </li>

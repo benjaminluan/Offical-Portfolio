@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Html from "../assets/html5.svg";
-import css from "../assets/css4.svg"
 
 const About = () => {
   const [clicked, setClicked] = useState(false);
@@ -10,7 +8,7 @@ const About = () => {
     <section id="about">
       <div
         className={
-          "about__me--container cursor" + (clicked === true ? " expand" : "")
+          "about__me--container dark__mode cursor" + (clicked === true ? " expand" : "")
         }
         onClick={() => {
           setClicked(!clicked);
