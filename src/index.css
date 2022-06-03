@@ -9,6 +9,8 @@ body {
   background-color: #eeebe8;
 }
 
+
+/* background: #f9b9e5; */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -21,6 +23,10 @@ code {
   padding: 0;
   font-family: "Nunito Sans";
   box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -83,6 +89,11 @@ nav {
   margin: 0 24px;
   font-size: 20px;
 }
+.icon__adjust{
+  font-size: 20px;
+  margin: 0 24px;
+}
+
 
 /*
 Header
@@ -288,13 +299,31 @@ Projects
 */
 
 #projects{
-  margin-top: 160px;
+  margin-top: 240px;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
+.projects--container{
+  border-radius: 25px;
+  padding: 56px 56px;
+  width: 80%;
+  box-shadow: 6px 10px 12px #bcbdc2, -12px -6px 12px #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .header__projects{
+  text-align: center;
   font-size: 40px;
   font-weight: bold;
+}
+
+.projects{
+  display: flex;
+  margin-top: 64px;
+  align-items: center;
 }
