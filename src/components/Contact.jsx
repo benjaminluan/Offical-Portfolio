@@ -29,11 +29,11 @@ const Contact = () => {
             <form id="contact__form" onSubmit={(event) => sendMessage(event)}>
               <div className="form__item">
                 <label className="form__item--label">Name</label>
-                <input type="text" className="input" name="user_name" />
+                <input type="text" className="input" name="user_name" required />
               </div>
               <div className="form__item">
                 <label className="form__item--label">E-mail</label>
-                <input type="email" className="input" name="user_email" />
+                <input type="email" className="input" name="user_email" required />
               </div>
               <div className="form__item">
                 <label className="form__item--label">Message</label>
