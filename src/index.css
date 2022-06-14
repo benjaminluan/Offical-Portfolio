@@ -237,12 +237,17 @@ About Me
   padding-right: 400px;
 }
 
+.about__me{
+  height: 100%;
+}
+
 .expand {
   width: 70%;
   box-shadow: inset 6px 6px 12px #bcbdc2, inset -3px -6px 7px #fff;
   max-height: 800px;
   transition: width 2s ease, max-height 1s ease;
   padding: 0;
+  height: 100%;
 }
 
 .header__about--wrapper {
@@ -281,7 +286,6 @@ About Me
 }
 
 .about__me--expanded {
-  margin: 32px 32px;
   display: flex;
 }
 
@@ -352,14 +356,16 @@ About Me
 }
 
 .language__img--container {
-  margin: 56px 48px;
+  margin-top: 56px;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .language__img--wrapper {
   width: 25%;
-  padding: 0 16px;
+  max-width: 100px;
 }
 .language__img {
   width: 100%;
@@ -655,6 +661,24 @@ Footer
 
 /* reponsiveness */
 
+@media(max-width: 1000px){
+  .about__me--expanded-left-column{
+    
+  }
+  .about__me--expanded-para,
+  .about__me--expanded-para2{
+    font-size: 16px;
+    margin: 16px 16px;
+  }
+  .quote__container{
+    font-size: 14px;
+  }
+  .language__img--wrapper{
+    padding: 0;
+    margin: 16px 16px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav__list--container {
     margin: auto auto;
@@ -687,4 +711,63 @@ Footer
 }
 
 @media (max-width: 480px) {
+  .expand{
+    width: 90%;
+  }
+  .about__me--expanded-para,
+  .about__me--expanded-para2{
+    font-size: 12px;
+    margin: 8px 0;
+  }
+  .header__language{
+    font-size: 20px;
+  }
+  .language__img--wrapper{
+    margin: 8px;
+  }
+  .language__img--container{
+    margin-top: 20px;
+  }
+  .quote__container{
+    font-size: 12px;
+  }
+  .quote__author{
+    font-size: 10px;
+  }
+  .project__wrapper{
+    width: 100%;
+    margin-top: 32px;
+  }
+  .projects{
+    margin-top: 40px;
+  }
+
+  .form__item--label{
+    font-size: 12px;
+  }
+  .form__item{
+    padding: 0;
+  }
+  .form__submit{
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .header__btn--icon{
+    margin: 0 16px;
+    width: 80px;
+    height: 80px;
+  }
+  .header__btn {
+    font-size: 20px;
+  }
+  .header__name{
+    font-size: 28px;
+  }
+  .header__greeting{
+    font-size: 20px;
+  }
+  header{
+    padding-top: 160px;
+  }
 }

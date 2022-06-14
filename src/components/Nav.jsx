@@ -9,7 +9,7 @@ const Nav = ({ toggle }) => {
   const scrollingDown =
     scrollUp === false && window.scrollY !== 0 ? " scrolldown__effect" : "";
   const navList = [
-    { list: "Home", href: "/" },
+    { list: "Home", href: "#top" },
     { list: "About", href: "#about" },
     { list: "Projects", href: "#projects" },
   ];

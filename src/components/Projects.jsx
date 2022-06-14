@@ -20,7 +20,7 @@ const Projects = ({ projects }) => {
                 </div>
                 <div className="project__btn">
                     <a href={project.preview} target="_blank" className="project__preview">Preview</a>
-                    <a href="" className="project__source">Source</a>
+                    <a href={project.source}   target="_blank" className="project__source">Source</a>
                   </div>
               </div>
             ))}
