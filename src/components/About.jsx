@@ -61,16 +61,16 @@ const About = () => {
               <h2 className="header__language">Technology Stack</h2>
               <div className="language__img--container">
                 <figure className="language__img--wrapper">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="" className="language__img" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="" className="language__img popup__animation-1" />
                 </figure>
                 <figure className="language__img--wrapper">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="" className="language__img" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="" className="language__img popup__animation-2" />
                 </figure>
                 <figure className="language__img--wrapper">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="" className="language__img" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="" className="language__img popup__animation-3" />
                 </figure>
                 <figure className="language__img--wrapper">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" alt="" className="language__img" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" alt="" className="language__img popup__animation-4" />
                 </figure>
               </div>
             </div>

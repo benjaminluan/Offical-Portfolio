@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="header__btns--container">
         <div className="header__btn--container">
-          <a href="" className="header__btn--icon">
+          <a href="" className="header__btn--icon box__shadow-popup">
             <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
           </a>
           <a href="" className="header__btn ">
@@ -25,7 +25,7 @@ const Header = () => {
           </a>
         </div>
         <div className="header__btn--container">
-          <a href="" className="header__btn--icon">
+          <a href="" className="header__btn--icon box__shadow-popup">
             <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
           <a href="" className="header__btn ">
@@ -33,7 +33,7 @@ const Header = () => {
           </a>
         </div>
         <div className="header__btn--container">
-          <a href="" className="header__btn--icon">
+          <a href="" className="header__btn--icon box__shadow-popup">
             <FontAwesomeIcon icon="fa-solid fa-file" />
           </a>
           <a href="" className="header__btn">

@@ -1,21 +1,21 @@
 export const projects = [
   {
     id: 1,
-    title: "League of Legends Champion Info",
+    title: "LoL Info",
     img: "./images/League.png",
     source: "https://github.com/benjaminluan/League-react",
-    preview: "",
+    preview: "https://league-react.vercel.app/",
     para: "A league of Legends fan-made project that can filter and showcase champions description.",
-    language: "",
+    language: "HTML, CSS, Javascript, React",
   },
   {
     id: 2,
-    title: "Library Project",
+    title: "E-Commerce Library Website",
     img: "./images/Library.png",
     source: "https://github.com/benjaminluan/Library-Project.git",
     preview: "https://benjaminluan.github.io/Library-Project/",
     para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
-    language: "HTML, CSS, Javascript",
+    language: "HTML, CSS, Javascript, React",
   },
 
   {

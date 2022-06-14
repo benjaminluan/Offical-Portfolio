@@ -8,7 +8,11 @@ const Nav = ({ toggle }) => {
     scrollUp === true && window.scrollY !== 0 ? " scrollup__effect" : "";
   const scrollingDown =
     scrollUp === false && window.scrollY !== 0 ? " scrolldown__effect" : "";
-  const navList = ["Home", "About", "Projects"];
+  const navList = [
+    { list: "Home", href: "/" },
+    { list: "About", href: "#about" },
+    { list: "Projects", href: "#projects" },
+  ];
 
   const detectScroll = useCallback(
     (e) => {
@@ -33,14 +37,14 @@ const Nav = ({ toggle }) => {
     <nav className={"" + `${scrollingUp}` + `${scrollingDown}`}>
       <ul className="nav__list--container">
         {navList.map((list) => (
-          <li className="nav__list" key={list}>
-            <a href="/" className="nav__list--anchor dark__mode">
-              {list}
+          <li className="nav__list" key={list.list}>
+            <a href={list.href} className="nav__list--anchor dark__mode box__shadow-inset">
+              {list.list}
             </a>
           </li>
         ))}
-        <figure className="icon__adjust cursor" onClick = {toggle}>
-          <FontAwesomeIcon icon="fa-solid fa-adjust"  />
+        <figure className="icon__adjust cursor" onClick={toggle}>
+          <FontAwesomeIcon icon="fa-solid fa-adjust" />
         </figure>
       </ul>
     </nav>
