@@ -63,7 +63,7 @@ p {
 .dark__mode #contact,
 .dark__mode .project__bg,
 .dark__mode .input,
-.dark__mode .form__submit{
+.dark__mode .form__submit {
   background-color: #3c4043;
   color: white;
   transition: all 300ms ease;
@@ -345,7 +345,7 @@ About Me
 .show .quote__container {
   animation: fade-in 1s linear 1s;
   transition-property: opacity;
-  transition-delay: 2s;
+  transition-delay: 1s;
   opacity: 1;
 }
 
@@ -621,7 +621,7 @@ textarea {
   padding-top: 8px;
 }
 
-.dark__mode .white{
+.dark__mode .white {
   color: pink;
 }
 
@@ -790,18 +790,16 @@ Footer
     padding-top: 160px;
   }
   .about__me--container {
-    width: 90%;
+    width: 98%;
   }
   .icon__expanded {
     left: 90%;
   }
-  .about__expanded {
-    left: 10%;
-  }
+
   .nav__list--anchor {
     padding: 0;
   }
-  #contact__form{
+  #contact__form {
     width: 85%;
   }
 }
