@@ -48,7 +48,7 @@ const About = () => {
                 I welcome new <span className="bold">challenges</span> to transform them into engaging solutions in order to refine my craft and implement <span className="bold">new
                 skills</span> to my collections. Therefore, I am <span className="bold">consistently</span> working
                 on new projects to improve on my <span className="bold">critical thinking</span>, <span className="bold">problem-solving</span>,
-                and <span className="bold">web developement abilities</span>.
+                and <span className="bold">web development abilities</span>.
               </p>
               <div className="quote__container">
                 <p className="quote">
