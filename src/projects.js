@@ -35,6 +35,6 @@ export const projects = [
     source: "https://github.com/benjaminluan/Treact-Project",
     preview: "https://benjaminluan.github.io/Treact-Project/",
     para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
-    language: "HTML, CSS, Javascript",
+    language: "HTML, CSS ",
   }
 ];
