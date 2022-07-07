@@ -242,18 +242,15 @@ About Me
 
 .about__me--container {
   position: relative;
-  display: flex;
-  justify-content: center;
   border-radius: 25px;
   box-shadow: 6px 10px 12px #bcbdc2, -12px -6px 12px #fff;
   transition: all 1s;
   max-height: 100px;
   width: 22%;
-  padding-right: 400px;
+  min-width: 420px;
 }
 
-.about__me {
-  height: 100%;
+.about_me {
 }
 
 .expand {
@@ -275,9 +272,9 @@ About Me
 .header__about {
   position: absolute;
   left: 5%;
-  margin-right: 24px;
   text-align: center;
   transition: left 1s linear;
+  margin-right: 24px;
 }
 
 .about__expanded {
@@ -288,6 +285,7 @@ About Me
 .icon__wrapper {
   position: absolute;
   left: 88%;
+  transition: all 1s linear;
 }
 
 .fa-chevron-down,
@@ -307,6 +305,7 @@ About Me
 .hide {
   opacity: 0;
   visibility: hidden;
+  height: 0px;
 }
 
 .about__me--expanded-left-column,
@@ -315,10 +314,24 @@ About Me
 }
 
 .about__me--expanded-left-column {
+  position: relative;
   display: flex;
   flex-direction: column;
-  border-right: #c5c6ca ridge 1.5px;
   margin-bottom: 36px;
+}
+
+.about__me--expanded-left-column:after {
+  position: absolute;
+  content: "";
+  border-right: #c5c6ca ridge 1.5px;
+  height: 1px;
+  width: 1.5px;
+  right: 0;
+}
+
+.show > .about__me--expanded-left-column:after {
+  height: calc(100% - 2px);
+  transition: height 2s ease-out 0.15s;
 }
 
 .header__language {
@@ -327,6 +340,13 @@ About Me
   text-decoration: underline;
   line-height: 1.5;
   font-size: 32px;
+  opacity: 0;
+}
+
+.show .header__language {
+  opacity: 1;
+  transition: opacity 2s ease-in;
+  
 }
 
 .about__me--expanded-para {
@@ -732,10 +752,10 @@ Footer
     width: 50%;
     margin-top: 32px;
   }
-  .project__title{
+  .project__title {
     font-size: 18px;
   }
-  .project__language{
+  .project__language {
     font-size: 12px;
   }
 }
@@ -814,10 +834,10 @@ Footer
   #contact__form {
     width: 85%;
   }
-  .project__title{
+  .project__title {
     font-size: 24px;
   }
-  .project__language{
+  .project__language {
     font-size: 16px;
   }
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Projects = ({ projects }) => {
   return (
-    <section id="projects">
+    <section id="projects" loading="lazy" >
       <div className="projects__container">
         <div className="projects__row">
           <h1 className="projects__header">My Projects</h1>
