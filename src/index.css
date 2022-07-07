@@ -462,6 +462,7 @@ Projects
   position: relative;
   width: calc(100% / 3);
   padding: 16px 16px;
+  height: 254px;
   overflow: hidden;
 }
 
@@ -481,7 +482,7 @@ Projects
   width: 100%;
   box-shadow: 6px 10px 12px #bcbdc2, -12px -6px 12px rgb(226, 223, 223);
   border-radius: 25px;
-  min-height: 100%;
+  object-fit: contain;
 }
 
 .project__bg {
