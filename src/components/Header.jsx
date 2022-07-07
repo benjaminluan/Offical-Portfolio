@@ -18,7 +18,7 @@ const Header = () => {
           <a
             href="https://www.linkedin.com/in/benjamin-bui-b41934222/"
             target="_blank"
-            className="header__btn--icon box__shadow-popup"
+            className="header__btn--icon box__shadow-popup "
           >
             <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
           </a>
@@ -31,7 +31,7 @@ const Header = () => {
           </a>
         </div>
         <div className="header__btn--container">
-          <a href="https://github.com/benjaminluan" target="_blank" className="header__btn--icon box__shadow-popup">
+          <a href="https://github.com/benjaminluan" target="_blank" className="header__btn--icon box__shadow-popup ">
             <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
           <a href="https://github.com/benjaminluan" target="_blank" className="header__btn ">
@@ -39,7 +39,7 @@ const Header = () => {
           </a>
         </div>
         <div className="header__btn--container">
-          <a href={Resume} target="_blank" className="header__btn--icon box__shadow-popup">
+          <a href={Resume} target="_blank" className="header__btn--icon box__shadow-popup ">
             <FontAwesomeIcon icon="fa-solid fa-file" />
           </a>
           <a href={Resume} target="_blank" className="header__btn">
