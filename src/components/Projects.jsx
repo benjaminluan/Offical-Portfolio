@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Projects = ({ projects }) => {
   return (
-    <section id="projects" loading="lazy" >
+    <section id="projects" loading="lazy">
       <div className="projects__container">
         <div className="projects__row">
           <h1 className="projects__header">My Projects</h1>
@@ -16,12 +16,23 @@ const Projects = ({ projects }) => {
                 <div className="project__info">
                   <h2 className="project__title">{project.title}</h2>
                   <h3 className="project__language">{project.language}</h3>
-                  
                 </div>
                 <div className="project__btn">
-                    <a href={project.preview} target="_blank" className="project__preview">Preview</a>
-                    <a href={project.source}   target="_blank" className="project__source">Source</a>
-                  </div>
+                  <a
+                    href={project.preview}
+                    target="_blank"
+                    className="project__preview"
+                  >
+                    Preview
+                  </a>
+                  <a
+                    href={project.source}
+                    target="_blank"
+                    className="project__source"
+                  >
+                    Source
+                  </a>
+                </div>
               </div>
             ))}
           </div>
