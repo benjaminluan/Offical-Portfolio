@@ -739,6 +739,7 @@ Footer
     font-size: 16px;
     margin: 16px 0;
   }
+  HEADER
   .header__language {
     font-size: 28px;
   }
@@ -824,6 +825,8 @@ Footer
   }
   header {
     padding-top: 160px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
   .about__me--container {
     width: 98%;
