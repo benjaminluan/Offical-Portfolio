@@ -761,6 +761,9 @@ Footer
 }
 
 @media (max-width: 480px) {
+  .about__me--container {
+    min-width: unset;
+  }
   .expand {
     width: 98%;
   }
