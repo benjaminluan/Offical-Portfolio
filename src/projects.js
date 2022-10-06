@@ -1,15 +1,6 @@
 export const projects = [
   {
     id: 1,
-    title: "1:1 Treact Template",
-    img: "./images/treact.png",
-    source: "https://github.com/benjaminluan/Treact-Project",
-    preview: "https://benjaminluan.github.io/Treact-Project/",
-    para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
-    language: "HTML, CSS ",
-  },
-  {
-    id: 2,
     title: "E-Commerce Library Website",
     img: "./images/Library.png",
     source: "https://github.com/benjaminluan/Library-Project",
@@ -17,18 +8,8 @@ export const projects = [
     para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
     language: "HTML, CSS, Javascript, React",
   },
-
   {
-    id: 3,
-    title: "E-Portfolio",
-    img: "./images/portfolio.png",
-    source: "https://github.com/benjaminluan/Portfolio",
-    preview: "https://benjaminluan.github.io/Portfolio/",
-    para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
-    language: "HTML, CSS, Javascript",
-  },
-  {
-    id: 4,
+    id: 2,
     title: "LoL Info",
     img: "./images/league.png",
     source: "https://github.com/benjaminluan/League-react",
@@ -36,8 +17,9 @@ export const projects = [
     para: "A league of Legends fan-made project that can filter and showcase champions description.",
     language: "HTML, CSS, Javascript, React",
   },
+
   {
-    id: 5,
+    id: 3,
     title: "Spotify Clone",
     img: "./images/spotify.png",
     source: "https://github.com/benjaminluan/Spotify-Clone",
@@ -46,12 +28,30 @@ export const projects = [
     language: "HTML, CSS, Javascript, React",
   },
   {
-    id: 6,
+    id: 4,
+    title: "E-Portfolio",
+    img: "./images/portfolio.png",
+    source: "https://github.com/benjaminluan/Portfolio",
+    preview: "https://benjaminluan.github.io/Portfolio/",
+    para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
+    language: "HTML, CSS, Javascript",
+  },
+  {
+    id: 5,
     title: "Search Engine",
     img: "./images/google.png",
     source: "https://github.com/benjaminluan/Google-Clone",
     preview: "https://google-clone-liart-delta.vercel.app/",
     para: "Google Clone",
     language: "HTML, CSS, Javascript, React",
+  },
+  {
+    id: 6,
+    title: "1:1 Treact Template",
+    img: "./images/treact.png",
+    source: "https://github.com/benjaminluan/Treact-Project",
+    preview: "https://benjaminluan.github.io/Treact-Project/",
+    para: "A project with the intention to grasp a better understanding of HTML, CSS and Javascript.",
+    language: "HTML, CSS ",
   },
 ];
