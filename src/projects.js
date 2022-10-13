@@ -1,6 +1,15 @@
 export const projects = [
   {
     id: 1,
+    title: "NFT Project",
+    img: "./images/nft.png",
+    source: "https://github.com/benjaminluan/Benjamin-Internship",
+    preview: "https://internship-nftproject.vercel.app/",
+    para: "Fetched Api and dynamically displayed data and installation of carousels.",
+    language: "HTML, CSS, Javascript, React",
+  },
+  {
+    id: 2,
     title: "E-Commerce Library Website",
     img: "./images/Library.png",
     source: "https://github.com/benjaminluan/Library-Project",
@@ -9,7 +18,7 @@ export const projects = [
     language: "HTML, CSS, Javascript, React",
   },
   {
-    id: 2,
+    id: 3,
     title: "LoL Info",
     img: "./images/league.png",
     source: "https://github.com/benjaminluan/League-react",
@@ -19,7 +28,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Spotify Clone",
     img: "./images/spotify.png",
     source: "https://github.com/benjaminluan/Spotify-Clone",
@@ -28,7 +37,7 @@ export const projects = [
     language: "HTML, CSS, Javascript, React",
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Portfolio",
     img: "./images/portfolio.png",
     source: "https://github.com/benjaminluan/Portfolio",
@@ -37,7 +46,7 @@ export const projects = [
     language: "HTML, CSS, Javascript",
   },
   {
-    id: 5,
+    id: 6,
     title: "Search Engine",
     img: "./images/google.png",
     source: "https://github.com/benjaminluan/Google-Clone",
@@ -46,7 +55,7 @@ export const projects = [
     language: "HTML, CSS, Javascript, React",
   },
   {
-    id: 6,
+    id: 7,
     title: "1:1 Treact Template",
     img: "./images/treact.png",
     source: "https://github.com/benjaminluan/Treact-Project",
